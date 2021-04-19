@@ -52,15 +52,34 @@
     </div>
 </nav>
 
-<main class="container-fluid sport-text">
+<main class="container-fluid sport-text mb-3">
 
     <div class="row">
         <div class="col-md" id="sport-banner-image">
         </div>
     </div>
 
-    <div class="d-flex justify-content-center text-center text-light mt-5 mb-4">
+    <div class="d-flex justify-content-center text-center text-light mt-5 mb-5">
         <h2>With current restrictions due to COVID 19 we are unable to show big screen live sport.<br><br>Hopefully we will soon be able to once again and the banter can resume...<br><br>For now we will continue to show BT SPORTS on our smaller screens.</h2>
+    </div>
+
+    <div class="container api-content mt-3 mb-5">
+        <div class="row">
+            <div class="col-md-6 mt-3 about-section text-light">
+                <h1>Search for the Latest Sporting Event:</h1>
+                <form>
+                    <div class="input-group mb-5 text-light">
+                        <input type="text" class="form-control" placeholder=" Enter Team"  id="search-text">
+                        <button class="btn btn-dark" type="button" id="button-addon2" onclick="getAPIData()">Search</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6 text-light mb-5">
+                <div id="search-items">
+                    <h3 id="results"></h3>
+                </div>
+            </div>
+        </div>
     </div>
 
 </main>
@@ -71,6 +90,7 @@
     </div>
 </footer>
 
+<script src="js/sports-api.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
 </body>

@@ -1,96 +1,74 @@
 body {
     background-color: #316135;
 }
-
 .nav-link {
     font-family: 'Alice', serif;
     font-size: 2.7vh;
 }
-
 .navbar-brand {
     font-family: 'Pacifico', cursive;
     font-size: 4vh;
     padding-left: 1vh;
     padding-right: 1vh;
 }
-
 .navbar {
     background-color: #661223;
     padding-left: 1vw;
 }
-
 .nav-item {
     margin-right: 2vh;
 }
-
 #navbarText {
     font-family: 'Alice', serif;
     padding-left: 1vw;
 }
-
 .img-take-away {
     margin-bottom: 2vw;
 }
-
 .img-deals {
     margin-top: 2vw;
 }
-
 .navbar-img {
     padding-right: 1vw;
 }
-
 .bottom-nav {
     background-color: #661223;
-    height: auto;
 }
 #home-banner-image {
     background-image: url("../images/home-banner.png");
     width: 1920px;
     height: 303px;
-    background-repeat: no-repeat;
-
 }
 #menus-banner-image {
     background-image: url("../images/menus-banner.png");
     width: 1920px;
     height: 303px;
-    background-repeat: no-repeat;
 }
 #contact-banner-image {
     background-image: url("../images/contact-banner.png");
     width: 1920px;
     height: 303px;
-    background-repeat: no-repeat;
 }
 #quiz-banner-image {
     background-image: url("../images/quiz-banner.png");
     width: 1920px;
     height: 303px;
-    background-repeat: no-repeat;
 }
 
 #sport-banner-image {
     background-image: url("../images/sport-banner.png");
     width: 1920px;
     height: 303px;
-    background-repeat: no-repeat;
 }
 #covid-banner-image {
     background-image: url("../images/covid-banner.png");
     width: 1920px;
     height: 303px;
-    background-repeat: no-repeat;
 }
-
-#content-main,#menu-page, #contact-page, .quiz-text, .sport-text,.covid-text {
+#content-main,#menu-page, #contact-page, .quiz-text, .sport-text,.covid-text, .api-content {
     font-family: 'Roboto Slab', serif;
 }
 
-#content-main {
-    margin-top: 2vw;
-    margin-bottom: 5vw;
-}
 .bottom-text {
     font-family: 'Alice', serif;
     padding-left: 2vh;
@@ -100,11 +78,8 @@ body {
 #quiz-image {
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-left: 0;
-    margin-right: 0;
     text-align: center;
 }
-
 #covid-text-date {
     margin-left: 3vw;
 }
@@ -113,3 +88,4 @@ body {
     margin-right: 3vw;
     padding-bottom: 4vw;
 }
+
