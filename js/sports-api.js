@@ -28,7 +28,7 @@ function getAPIData()
             for (var i in data.event)
             {
                 var node = document.createElement("H3");
-                var textnode = document.createTextNode(data.event[i].strEvent + ' ' + data.event[i].dateEvent + ' ' + data.event[i].strTime);
+                var textnode = document.createTextNode(data.event[i].strEvent + ' - ' + data.event[i].strSport + ' - ' + data.event[i].dateEvent + ' - ' + data.event[i].strTimeLocal + ' - ' + data.event[i].strCountry);
                 node.appendChild(textnode);
                 document.getElementById("results").appendChild(node);
             }

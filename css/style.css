@@ -5,50 +5,57 @@ body {
     font-family: 'Alice', serif;
     font-size: 2.7vh;
 }
+
 .navbar-brand {
     font-family: 'Pacifico', cursive;
     font-size: 4vh;
     padding-left: 1vh;
-    padding-right: 1vh;
 }
-.navbar {
+
+.navbar, .bottom-nav {
     background-color: #661223;
     padding-left: 1vw;
 }
+
 .nav-item {
     margin-right: 2vh;
 }
+
 #navbarText {
     font-family: 'Alice', serif;
     padding-left: 1vw;
 }
+
 .img-take-away {
     margin-bottom: 2vw;
 }
+
 .img-deals {
     margin-top: 2vw;
 }
+
 .navbar-img {
     padding-right: 1vw;
 }
-.bottom-nav {
-    background-color: #661223;
-}
+
 #home-banner-image {
     background-image: url("../images/home-banner.png");
     width: 1920px;
     height: 303px;
 }
+
 #menus-banner-image {
     background-image: url("../images/menus-banner.png");
     width: 1920px;
     height: 303px;
 }
+
 #contact-banner-image {
     background-image: url("../images/contact-banner.png");
     width: 1920px;
     height: 303px;
 }
+
 #quiz-banner-image {
     background-image: url("../images/quiz-banner.png");
     width: 1920px;
@@ -60,11 +67,13 @@ body {
     width: 1920px;
     height: 303px;
 }
+
 #covid-banner-image {
     background-image: url("../images/covid-banner.png");
     width: 1920px;
     height: 303px;
 }
+
 #content-main,#menu-page, #contact-page, .quiz-text, .sport-text,.covid-text, .api-content {
     font-family: 'Roboto Slab', serif;
 }
@@ -80,12 +89,14 @@ body {
     padding-bottom: 10px;
     text-align: center;
 }
+
 #covid-text-date {
     margin-left: 3vw;
 }
+
 #covid-paragraph {
     margin-left: 3vw;
     margin-right: 3vw;
-    padding-bottom: 4vw;
+    padding-bottom: 9vw;
 }
 
