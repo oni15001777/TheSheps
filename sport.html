@@ -11,13 +11,15 @@
 </head>
 
 <body>
-
+<!-- Navigation bar -->
 <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
     <div class="container-fluid">
+        <!-- Logo with link address to home page -->
         <a class="navbar-brand m-22 p-33" href="home.html">The Sheps</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <!-- Links to all the webpages -->
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
@@ -29,6 +31,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact%20us.html">Contact us</a>
                 </li>
+                <!-- Navigation bar dropdown for more links -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         More...
@@ -40,6 +43,7 @@
                     </ul>
                 </li>
             </ul>
+            <!-- Facebook image with link of their Facebook page and some contact information -->
             <span class="navbar-img">
                 <a class="navbar-facebook-logo" href="https://www.facebook.com/thesheps1">
                     <img src="images/facebook.png" alt="Facebook page" height="34" width="34"/>
@@ -51,29 +55,30 @@
         </div>
     </div>
 </nav>
-
+<!-- the main content -->
 <main class="container-fluid sport-text mb-3">
-
+    <!-- banner image -->
     <div class="row">
         <div class="col-md" id="sport-banner-image">
         </div>
     </div>
-
+    <!-- Information -->
     <div class="d-flex justify-content-center text-center text-light mt-5 mb-5">
         <h2>With current restrictions due to COVID 19 we are unable to show big screen live sport.<br><br>Hopefully we will soon be able to once again and the banter can resume...<br><br>For now we will continue to show BT SPORTS on our smaller screens.</h2>
     </div>
-
+    <!-- External Sports API -->
     <div class="container text-center api-content mt-3 mb-5">
         <div class="row">
             <div class="col-md-3"></div>
                 <div class="col-md-6 mt-3 mb-5 text-light">
                     <h1>Search the Latest Sporting Event:</h1>
-                    <form>
-                        <div class="input-group mb-3 text-light">
-                            <input type="text" class="form-control" placeholder=" Enter Team"  id="search-text">
-                            <button class="btn btn-dark" type="button" id="button-addon2" onclick="getAPIData()">Search</button>
-                        </div>
-                    </form>
+                        <form>
+                            <div class="input-group mb-3 text-light">
+                                <input type="text" class="form-control" placeholder=" Enter Team"  id="search-text">
+                                <button class="btn btn-dark" type="button" id="button-addon2" onclick="getAPIData()">Search</button>
+                            </div>
+                        </form>
+                    <!-- API's results -->
                     <div id="search-items">
                         <h3 id="results"></h3>
                     </div>
@@ -81,9 +86,8 @@
             <div class="col-md-3"></div>
         </div>
     </div>
-
 </main>
-
+<!-- The footer -->
 <footer class="bottom-nav fixed-bottom text-light">
     <div class="container-fluid" id="main-footer">
         <p class="bottom-text">The Shepherds Rest 2020. All Rights Reserved. Privacy Policy</p>
